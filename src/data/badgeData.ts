@@ -1,0 +1,121 @@
+import { DigitalBadge } from '../types';
+
+export const DEFAULT_STUDENT_BADGES: DigitalBadge[] = [
+  {
+    id: 'badge-tax-foundations',
+    title: 'Taxation Foundations Master',
+    description: 'Completed Module 1: Bangladesh Income Tax Act 2023 & Heads of Income.',
+    category: 'Module',
+    icon: 'Award',
+    earnedAt: 'July 20, 2026',
+    isUnlocked: true,
+    criteria: 'Complete Module 1 in Income Tax Masterclass',
+    color: 'indigo',
+    points: 100,
+    skillsUnlocked: ['Income Tax Slabs', 'Salary Tax Exemptions', 'Tax Act 2023 Rules']
+  },
+  {
+    id: 'badge-ereturn-prodigy',
+    title: 'E-Return Filing Prodigy',
+    description: 'Mastered hands-on filing on the official NBR e-Return portal IT-11GA.',
+    category: 'Module',
+    icon: 'Sparkles',
+    earnedAt: 'July 28, 2026',
+    isUnlocked: true,
+    criteria: 'Complete Module 2 on e-Return Portal Practical Filing',
+    color: 'emerald',
+    points: 150,
+    skillsUnlocked: ['etaxnbr.gov.bd Navigation', 'Form IT-11GA', 'Rebate Calculation']
+  },
+  {
+    id: 'badge-live-enthusiast',
+    title: 'Live Session Enthusiast',
+    description: 'Attended or watched more than 10 live interactive tax workshops.',
+    category: 'Milestone',
+    icon: 'Flame',
+    earnedAt: 'August 02, 2026',
+    isUnlocked: true,
+    criteria: 'Watch 10 or more live/recorded classes in student portal',
+    color: 'purple',
+    points: 100,
+    skillsUnlocked: ['Real-time Legal Q&A', 'Active Learning']
+  },
+  {
+    id: 'badge-certified-practitioner',
+    title: 'Certified Tax Practitioner',
+    description: 'Successfully completed the Personal Income Tax Masterclass and earned official certification.',
+    category: 'Course',
+    icon: 'GraduationCap',
+    earnedAt: 'July 15, 2026',
+    isUnlocked: true,
+    criteria: 'Complete full Course & Receive Verified Certificate',
+    color: 'amber',
+    points: 300,
+    skillsUnlocked: ['Certified Practice', 'NBR Compliance', 'Client Tax Filing']
+  },
+  {
+    id: 'badge-tax-quiz-whiz',
+    title: 'Income Tax Quiz Whiz',
+    description: 'Scored 80% or higher in the Income Tax Knowledge & E-Return Assessment.',
+    category: 'Quiz',
+    icon: 'CheckCircle2',
+    earnedAt: undefined,
+    isUnlocked: false,
+    criteria: 'Score 80%+ on Income Tax Knowledge Assessment',
+    color: 'emerald',
+    points: 200,
+    skillsUnlocked: ['Tax Assessment Verification', 'Statutory Deadlines']
+  },
+  {
+    id: 'badge-perfect-score',
+    title: 'Perfect Score Scholar',
+    description: 'Achieved a flawless 100% score on any practice assessment test.',
+    category: 'Quiz',
+    icon: 'Crown',
+    earnedAt: undefined,
+    isUnlocked: false,
+    criteria: 'Score 100% on any practice quiz in the portal',
+    color: 'rose',
+    points: 250,
+    skillsUnlocked: ['Flawless Tax Knowledge', 'Mastery']
+  },
+  {
+    id: 'badge-vat-act-specialist',
+    title: 'VAT Act 2012 Specialist',
+    description: 'Mastered VAT Registration, VDS Withholding, and VAT 9.1 Return Filing.',
+    category: 'Module',
+    icon: 'ShieldCheck',
+    earnedAt: undefined,
+    isUnlocked: false,
+    criteria: 'Complete Module 1 of VAT & Tax Compliance Course',
+    color: 'blue',
+    points: 150,
+    skillsUnlocked: ['VAT Act 2012', 'VDS Withholding', 'Form 9.1 Filing']
+  },
+  {
+    id: 'badge-corporate-auditor',
+    title: 'Corporate Tax Auditor',
+    description: 'Completed Advanced Corporate Income Tax & Financial Statement Assessment.',
+    category: 'Course',
+    icon: 'Trophy',
+    earnedAt: undefined,
+    isUnlocked: false,
+    criteria: 'Complete Corporate Tax & Business Compliance Masterclass',
+    color: 'amber',
+    points: 300,
+    skillsUnlocked: ['Corporate Tax Returns', 'Audited Statements', 'Transfer Pricing']
+  },
+  {
+    id: 'badge-consistency-streak',
+    title: 'Consistency Champion',
+    description: 'Maintained a consecutive daily study streak on the Bangladesh Tax Academy portal.',
+    category: 'Milestone',
+    icon: 'Flame',
+    earnedAt: undefined,
+    isUnlocked: false,
+    criteria: 'Maintain a 5+ Day Consecutive Study Streak',
+    color: 'rose',
+    points: 200,
+    skillsUnlocked: ['Daily Learning Habit', 'Tax Mastery Consistency', 'Disciplined Study']
+  }
+];

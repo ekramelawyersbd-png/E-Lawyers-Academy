@@ -1,0 +1,6 @@
+{
+  "name": "E-Lawyers Academy",
+  "description": "Online Legal, Tax & Business Learning Platform with Live Classes, Student Portal, Course Catalog, and Admin Panel.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
